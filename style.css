@@ -717,8 +717,63 @@ background-size: 100%;
  }
  /*------------ Our done ------------*/
 
+ 
+
       }
 
+
+      @media (max-width: 760px) and (min-width: 550px)
+      {
+        .colr_text_lg {
+          font-size:42px;
+        }
+        .ft_3{
+          width: 280px;
+        }
+        .set_left {
+    
+          font-size: 40px;
+          width: 100%;
+          text-align: center;
+          left: -10%;
+        margin-top: 254px;
+          position: relative;
+          margin-bottom: 50px;
+        }
+        .position-absolute {
+          
+          width: 100%;
+        }
+        .button_learn { 
+          margin-left:38%;
+          padding: 14px 24px;
+          font-size: 30px;
+          top:-26px;
+          position: relative;
+          margin-top: 10%;
+        }
+        
+        .slide_img {
+          height: 1000px;
+        }
+    
+        .responsiv_c2
+        {
+          margin-top: 100px;
+        }
+    
+        .button_learn2 {
+          margin-left: 8px;
+          padding: 14px 24px;
+          font-size: 30px;
+          top:-26px;
+          position: relative;
+        }
+      .tm_{
+        margin-top: 122px;
+        padding-left: 185px;
+      }
+      }
 
       @media (max-width: 1236px) and (min-width: 760px)/*Ipad , Tab*/
   {
@@ -782,10 +837,7 @@ background-size: 100%;
 
 /*------------ Who we are done ------------*/
 
-/* .col-md-4 {
-  margin-bottom: 4%;
-  width: 100% !important;
-} */
+
 }
 
 @media (max-width:1000px) /* for every screen size*/
@@ -810,14 +862,26 @@ background-size: 100%;
 }
 }
 
-@media (max-width: 760px)
+@media (max-width: 760px)/*Contact us*/
 {
   .container_last {
     padding: 0;
     text-align: center;
 }
+
 .responsive_icons{
   text-align: center;
+  width: 100%;
+}
+
+
+.icon_box{
+  
+margin: 0 auto 10px;
+}
+
+.footerLogo {
+display: none;
 }
 
 }
