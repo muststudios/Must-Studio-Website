@@ -225,16 +225,11 @@ nav{
 
 .hr_other
 {
+  
     width: 30px;
-    border-top: 2px solid black;
-    border-color: black;
-    color: black;
-    background-color: black;
-    text-align: center;
-    margin-left: 128px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
+    border-top: 2px solid #112432;
+    text-align: left;
+    margin-left: 0;
     opacity: 100%;
 
 }
@@ -300,7 +295,7 @@ color: white;
     
 }
 .wi{
-    margin:0 20px 0 0;
+    margin:0 20px 10% 0;
 }
 .tm_
 {
@@ -310,6 +305,7 @@ color: white;
 }
 .align_center{
     text-align: center;
+    margin: auto;
 }
 .bold_h3
 {
@@ -368,6 +364,8 @@ object-fit: contain;
   }
 
   .explore_btn{
+
+/* 
     background-color: white;
     padding: 11px 65px;
     border-radius: 200px;
@@ -375,12 +373,23 @@ object-fit: contain;
     box-shadow: 0px 10px 40px 0px #80808073;
     font-weight: bold;
     font-size: 17px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    outline: none;
-    transform: translateX(350%);
+    margin-top: 30px;
+    outline: none; */
+
+
+
+    background-color: white;
+    padding: 11px 65px;
+    border-radius: 200px;
+    border: transparent;
+    box-shadow: 0px 10px 40px 0px #80808073;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    /* outline: none; */
     z-index: 1;
-    position: relative;
+    /* position: relative; */
   }
 
   .explore_btn:hover{
@@ -392,7 +401,7 @@ object-fit: contain;
     object-fit: fill;
     width: 100%;
     position: relative;
-    bottom: 250px;
+    bottom:-44px;
     z-index: 1;
   }
   .team_img_2{
@@ -431,7 +440,7 @@ object-fit: contain;
 
   .pos{
     position: relative;
-    bottom: 340px;
+   
   
   }
   .pos_up{
@@ -445,8 +454,11 @@ object-fit: contain;
 
   .project_done_section{
     position: relative;
-    top: -340px;
+
   }
+  .mb100 {
+    margin-bottom: 100px;
+}
 
   .brand_logo_img{
     width: 100%;
@@ -607,6 +619,20 @@ object-fit: contain;
 .add_mrgin{
   padding: 0 3%;
 }
+
+.back_ground_who_we_are{
+  background-image: url(./About\ copy.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+}
+.center_text{
+  text-align: center;
+  background-image: url(./Team\ 2.png);
+background-repeat: no-repeat;
+background-position: left top;
+background-size: 100%;
+}
 /* media quiries */
 @media (max-width: 550px) and (min-width: 320px)/*Iphone XR*/
   {
@@ -638,7 +664,7 @@ object-fit: contain;
             width: 100%;
           }
           .button_learn { 
-            /* margin-left: 140px; */
+          
             margin-left: 35%;
             padding: 14px 24px;
             font-size: 19px;
@@ -686,11 +712,15 @@ object-fit: contain;
   font-size: 35px;
  }
 
+ .heading_3{
+  font-size: 35px;
+ }
+ /*------------ Our done ------------*/
 
       }
 
 
-      @media (max-width: 1236px) and (min-width: 760px)/*Ipad*/
+      @media (max-width: 1236px) and (min-width: 760px)/*Ipad , Tab*/
   {
     .colr_text_lg {
       font-size:42px;
@@ -757,3 +787,18 @@ object-fit: contain;
   width: 100% !important;
 }
 }
+
+@media (max-width:1000px) /*Our Team Responsive for every screen size*/
+{
+
+  iframe{
+    width: 100%;
+  }
+
+  .logo_size{
+    max-width: 250px !important;
+    margin: 20px auto !important;
+  }
+}
+
+
