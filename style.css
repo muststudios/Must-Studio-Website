@@ -782,16 +782,17 @@ background-size: 100%;
 
 /*------------ Who we are done ------------*/
 
-.col-md-4 {
+/* .col-md-4 {
   margin-bottom: 4%;
   width: 100% !important;
-}
+} */
 }
 
-@media (max-width:1000px) /*Our Team Responsive for every screen size*/
+@media (max-width:1000px) /* for every screen size*/
 {
 
-  iframe{
+  iframe/*our team*/
+  {
     width: 100%;
   }
 
@@ -802,3 +803,21 @@ background-size: 100%;
 }
 
 
+@media (max-width: 991px)/*contact us*/
+{
+.form_ {
+    padding: 70px 0px 0px 0px;
+}
+}
+
+@media (max-width: 760px)
+{
+  .container_last {
+    padding: 0;
+    text-align: center;
+}
+.responsive_icons{
+  text-align: center;
+}
+
+}
