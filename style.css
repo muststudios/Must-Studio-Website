@@ -123,7 +123,7 @@ margin-top: 20px;
 .sepration{
     height: 5px;
     background-color: #0299c0;
-    width:10%;
+    width:130px;
     margin: 0px auto 80px auto;
 }
 .heading_1{
@@ -164,7 +164,7 @@ nav{
 
 #about_img{
     float: right;
-    height: 200px;
+    height: auto;
     margin-top: 35px;
     width: 100%;
 }
@@ -585,10 +585,35 @@ object-fit: contain;
   bottom: 55px;
   right: 50px;
 }
+.sl_1{
+  background:center url(./slider1.png);
+  
+  opacity: 100%;
+}
+.sl_2{
+  background:center url(./slider2.png);
 
+  opacity: 100%;
+}
+.sl_3{
+  background:center url(./slider3.png);
+
+  opacity: 100%;
+}
+.slide_img{
+  opacity: 0% ;
+}
+
+.add_mrgin{
+  padding: 0 3%;
+}
 /* media quiries */
-@media (max-width: 550px) and (min-width: 320px)
-          {
+@media (max-width: 550px) and (min-width: 320px)/*Iphone XR*/
+  {
+    .slide_img{
+      opacity: 100% ;
+    }
+    
           .fnt {
             font-size:22px;
           }
@@ -604,7 +629,7 @@ object-fit: contain;
             width: 100%;
             text-align: center;
             left: -10%;
-          margin-top: 220px;
+          margin-top: 254px;
             position: relative;
             margin-bottom: 20px;
           }
@@ -613,14 +638,122 @@ object-fit: contain;
             width: 100%;
           }
           .button_learn { 
-            margin-left: 140px;
+            /* margin-left: 140px; */
+            margin-left: 35%;
             padding: 14px 24px;
             font-size: 19px;
           }
-          }
-          .slide_img {
-            height: 830px;
-
           
+          .slide_img {
+            height: 900px;
+          }
 
+          .responsiv_c2
+          {
+            margin-top: 100px;
+          }
+
+          .button_learn2 {
+            margin-left: 8px;
+            padding: 14px 24px;
+            font-size: 19px;
+            top:-26px;
+            position: relative;
+          }
+        .tm_{
+          margin-top: 122px;
+          padding-left: 185px;
+        }
+         /*------------ slider done ------------*/
+
+        .mx-auto {
+          margin-right: auto!important;
+          margin-left: auto!important;
+          width: fit-content;
+      }
+      .heading_1 {
+      
+        font-size: 35px;
+       
+      }
+      .sepration {
+        margin: 10px auto 80px auto;
+      }
+ /*------------ Who we are done ------------*/
+
+ .heading_2 {
+
+  font-size: 35px;
+ }
+
+
+      }
+
+
+      @media (max-width: 1236px) and (min-width: 760px)/*Ipad*/
+  {
+    .colr_text_lg {
+      font-size:42px;
+    }
+    .ft_3{
+      width: 280px;
+    }
+    .set_left {
+
+      font-size: 40px;
+      width: 100%;
+      text-align: center;
+      left: -10%;
+    margin-top: 254px;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .position-absolute {
+      
+      width: 100%;
+    }
+    .button_learn { 
+      margin-left:38%;
+      padding: 14px 24px;
+      font-size: 30px;
+      top:-26px;
+      position: relative;
+      margin-top: 10%;
+    }
+    
+    .slide_img {
+      height: 1000px;
+    }
+
+    .responsiv_c2
+    {
+      margin-top: 100px;
+    }
+
+    .button_learn2 {
+      margin-left: 8px;
+      padding: 14px 24px;
+      font-size: 30px;
+      top:-26px;
+      position: relative;
+    }
+  .tm_{
+    margin-top: 122px;
+    padding-left: 185px;
+  }
+/*------------ slider done ------------*/
+
+
+  .mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+    width: fit-content;
+}
+
+/*------------ Who we are done ------------*/
+
+.col-md-4 {
+  margin-bottom: 4%;
+  width: 100% !important;
+}
 }
