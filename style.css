@@ -886,7 +886,7 @@ background-size: 100%;
         padding-left: 185px;
       }
       }
-
+     
       @media (max-width: 1236px) and (min-width: 760px)/*Ipad , Tab*/
   {
     .colr_text_lg {
@@ -996,4 +996,12 @@ margin: 0 auto 10px;
 display: none;
 }
 
+}
+
+@media (max-width: 990px) and (min-width: 0px){
+  .navbar-brand {
+  
+    margin-right: 0px !important;
+   
+}
 }
