@@ -745,6 +745,29 @@ background-repeat: no-repeat;
 background-position: left top;
 background-size: 100%;
 }
+
+.arrow_banner{
+  height: 26px;
+  position: relative;
+  left: 10px;
+  bottom: 1px;
+}
+.button_learn:hover .arrow_banner{
+  
+  left: 22px;
+  transition: 1s;
+
+
+}
+.button_learn2:hover .arrow_banner{
+  
+  left: 22px;
+  transition: 1s;
+
+
+}
+
+
 /* media quiries */
 @media (max-width: 550px) and (min-width: 320px)/*Iphone XR*/
   {
@@ -828,6 +851,9 @@ background-size: 100%;
   font-size: 35px;
  }
  /*------------ Our done ------------*/
+
+ 
+
 
  
 
