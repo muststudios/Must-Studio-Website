@@ -12,3 +12,9 @@ document.getElementById("mymodal").addEventListener("click", ()=>{
 });// To close the contact us form by clicking anywhere
 
 
+
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+});

@@ -13,7 +13,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- for jquery-->
 
     <title>Must Studio</title>
 </head>
@@ -24,19 +24,26 @@
         padding-bottom: 0px;
         padding-top: 0px;">
             <div class="container-fluid con">
-              
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation" style="border:none">
-                    <span class="navbar-toggler-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="#fff"
+               
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation" style="border:none;padding-top: 0px;padding-bottom: 0px;">
+                        <!-- <span class="navbar-toggler-icon"> -->
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="#fff"
                             viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
                             </path>
-                        </svg>
-                    </span>
-                </button>
+                        </svg> -->
+                        <div id="nav-icon3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- </span> -->
+                    </button>
+               
                 <a class="navbar-brand" href="#"><img class="m20 wid55" src="./logo.png" alt="brand logo"></a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -134,7 +141,7 @@
         </section>
         <!--slide bar-->
         <section>
-            <div class="chat_box_ collapse" role="dialog" id="mymodal" >
+            <div class="chat_box_ collapse" role="dialog" id="mymodal">
             </div>
             <div class="pop_up_">
                 <div class="modal-dialog collapse" role="dialog" id="mymodal">
